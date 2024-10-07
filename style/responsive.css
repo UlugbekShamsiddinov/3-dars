@@ -1,0 +1,146 @@
+@media(max-width:400px){
+    .container{
+        width: 400px;
+    }
+    nav ul{
+    list-style: none;
+    font-family: roboto;
+    font-size: 8px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    font-weight: 600;
+    gap: 20px;
+    }
+    .menus div p{
+        font-family: roboto;
+        font-size: 9px;
+    }
+    .menus div img{
+        width: 25px;
+        height: 25px;
+    }
+    header{
+        width: 100%;
+        height: 300px;
+        /* border: 2px solid black; */
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--bejeviy);
+    }
+    header div{
+        width: 49%;
+        height: 100%;
+        /* border: 1px solid aqua; */
+    }
+    header .img{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+    header .img img{
+        width: 300px;
+        height: 300px;
+    }
+    header .info{
+        position: relative;
+    }
+    header h1{
+        font-family: roboto;
+        position: absolute;
+        top: 110px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    header pre{
+        font-family: roboto;
+        position: absolute;
+        top: 160px;
+        font-size: 20px;
+        font-weight: 550;
+        color: var(--brown);
+    }
+    header button{
+        width: 120px;
+        height: 40px;
+        color: black;
+        font-family: roboto;
+        position: absolute;
+        /* border: 1px solid black; */
+        top: 220px;
+        background-color: var(--bejeviy);
+        font-weight: 500;
+    }
+    .products{
+        width: 100%;
+        height: 370px;
+        display: flex;
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .products div{
+        width: 49%;
+        height: 100%;
+        position: relative;
+        /* border: 2px solid red; */
+        /* background-color: var(--kokimtirOq); */
+    }
+    .products .chair{
+        background-color: var(--kokimtirOq);
+    }
+    .products .chair img{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+    }
+    .products .chair h1{
+        position: absolute;
+        font-family: roboto;
+        top: 160px;
+        font-weight: 500;
+        font-size: 20px;
+        left: 0px;
+    }
+    .products .chair button{
+        width: 120px;
+        height: 40px;
+        color: black;
+        font-family: roboto;
+        position: absolute;
+        /* border: 1px solid black; */
+        background-color: var(--kokimtirOq);
+        font-weight: 500;
+        top: 220px;
+        left: 0px;
+    }
+    .products .vase{
+        background-color: var(--ochkulrang);
+    }
+    .products .vase img{
+        position: absolute;
+        top: 0;
+        width: 150px;
+        height: 150px;
+    }
+    .products .vase h1{
+        position: absolute;
+        font-family: roboto;
+        top: 160px;
+        font-weight: 500;
+        font-size: 20px;
+        left: 0px;
+    }
+    .products .vase button{
+        width: 120px;
+        height: 40px;
+        color: black;
+        font-family: roboto;
+        position: absolute;
+        /* border: 1px solid black; */
+        font-weight: 500;
+        top: 220px;
+        left: 0px;
+    }
+}

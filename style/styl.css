@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bejeviy:#E2D9D6;
+    --brown:#A86A3D;
+    --kokimtirOq:#FAFAFA;
+    --ochkulrang:#EAE9E7;
+}
+.container{
+    width: 90%;
+    height: 2000px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.studio{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.studio div{
+    display: flex;
+    width: 270px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+.studio div img{
+    width: 30px;
+    height: 30px;
+}
+.studio h1{
+    font-family: roboto;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+nav ul{
+    list-style: none;
+    font-family: roboto;
+    font-size: 20px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    font-weight: 600;
+    gap: 60px;
+}
+nav li{
+    transition: .3s;
+}
+nav li:hover{
+    color: var(--brown);
+    transition: .3s;
+    border-bottom: 1px solid var(--brown);
+}
+.menus{
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.menus div{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.menus div p{
+    font-family: roboto;
+}
+.menus div img{
+    width: 30px;
+    height: 30px;
+}
+header{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bejeviy);
+}
+header div{
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid aqua; */
+}
+header .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .info{
+    position: relative;
+}
+header h1{
+    font-family: roboto;
+    position: absolute;
+    top: 110px;
+    font-weight: 500;
+    font-size: 25px;
+}
+header pre{
+    font-family: roboto;
+    position: absolute;
+    top: 160px;
+    font-size: 35px;
+    font-weight: 550;
+    color: var(--brown);
+}
+header button{
+    width: 120px;
+    height: 40px;
+    color: black;
+    font-family: roboto;
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 270px;
+    background-color: var(--bejeviy);
+    font-weight: 500;
+}
+.products{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.products div{
+    width: 49%;
+    height: 100%;
+    position: relative;
+    /* border: 2px solid red; */
+    /* background-color: var(--kokimtirOq); */
+}
+.products .chair{
+    background-color: var(--kokimtirOq);
+}
+.products .chair img{
+    position: absolute;
+}
+.products .chair h1{
+    position: absolute;
+    font-family: roboto;
+    top: 120px;
+    font-weight: 500;
+    font-size: 30px;
+    left: 320px;
+}
+.products .chair button{
+    width: 120px;
+    height: 40px;
+    color: black;
+    font-family: roboto;
+    position: absolute;
+    /* border: 1px solid black; */
+    background-color: var(--kokimtirOq);
+    font-weight: 500;
+    top: 180px;
+    left: 320px;
+}
+.products .vase{
+    background-color: var(--ochkulrang);
+}
+.products .vase img{
+    position: absolute;
+    top: 0;
+    height: 370px
+}
+.products .vase h1{
+    position: absolute;
+    font-family: roboto;
+    top: 120px;
+    font-weight: 500;
+    font-size: 30px;
+    left: 320px;
+}
+.products .vase button{
+    width: 120px;
+    height: 40px;
+    color: black;
+    font-family: roboto;
+    position: absolute;
+    /* border: 1px solid black; */
+    font-weight: 500;
+    top: 180px;
+    left: 320px;
+}
